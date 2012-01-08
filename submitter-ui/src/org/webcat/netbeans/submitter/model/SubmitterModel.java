@@ -40,7 +40,6 @@ public class SubmitterModel
     private List<String> lastExpandedTreePaths;
     // non user defined varibles that need to be acccessed by the view
     private boolean partnerEnabled;
-    private String serverResponseMessage;
     private String serverResponse;
     private String lastProjectSubmitSelect;
     // fields used only by the model
@@ -122,32 +121,11 @@ public class SubmitterModel
     }
 
     /**
-     * Checks if is partner enabled.
-     *
-     * @return true, if is partner enabled
-     */
-    public boolean isPartnerEnabled() {
-        partnerEnabled = NbPreferences.forModule(SubmitterModel.class).getBoolean(SubmitterPrefs.partnerEnabled, false);
-        return partnerEnabled;
-    }
-
-    /**
-     * Sets the partner enabled.
-     *
-     * @param partnerEnabled the new partner enabled
-     */
-    public void setPartnerEnabled(boolean partnerEnabled) {
-        this.partnerEnabled = partnerEnabled;
-        NbPreferences.forModule(SubmitterModel.class).putBoolean(SubmitterPrefs.partnerEnabled, partnerEnabled);
-    }
-
-    /**
      * Gets the password.
      *
      * @return the password
      */
     public String getPassword() {
-        password = NbPreferences.forModule(SubmitterModel.class).get(SubmitterPrefs.password, "");
         return password;
     }
 
@@ -158,7 +136,6 @@ public class SubmitterModel
      */
     public void setPassword(String password) {
         this.password = password;
-        NbPreferences.forModule(SubmitterModel.class).put(SubmitterPrefs.password, password);
     }
 
     /**
@@ -201,28 +178,9 @@ public class SubmitterModel
         if (getFiles().containsKey(lastProjectSubmitSelect)) {
             return lastProjectSubmitSelect;
         }
-        return "No Project Selected.";
+        return "(No project selected)";
 
 
-    }
-
-    /**
-     * Gets the server response message.
-     *
-     * @return the server response message
-     */
-    public String getServerResponseMessage() {
-        return serverResponseMessage;
-    }
-
-    /**
-     * Sets the server response message.
-     *
-     * @param serverResponseMessage the new server response message
-     */
-    public void setServerResponseMessage(String serverResponseMessage) {
-        this.serverResponseMessage = serverResponseMessage;
-        NbPreferences.forModule(SubmitterModel.class).put(SubmitterPrefs.serverResponseMessage, serverResponseMessage);
     }
 
     /**
@@ -341,26 +299,32 @@ public class SubmitterModel
      *
      * @throws IOException ioexception
      */
-    public void submitProject() throws IOException {
-        // create the manifest
-        SubmissionManifest manifest = new SubmissionManifest();
-        manifest.setSubmittableItems(new SubmittableFile(projectToSubmit));
-        manifest.setAssignment((AssignmentTarget) getSubmitTarget());
-        manifest.setPassword(getPassword());
-        manifest.setUsername(getUsername());
+    public void submitProject()
+    {
+        try
+        {
+            // create the manifest
+            SubmissionManifest manifest = new SubmissionManifest();
+            manifest.setSubmittableItems(new SubmittableFile(projectToSubmit));
+            manifest.setAssignment((AssignmentTarget) getSubmitTarget());
+            manifest.setPassword(getPassword());
+            manifest.setUsername(getUsername());
 
-        initSubmitter();
-        submitterHasResponse = false;
+            initSubmitter();
+            submitterHasResponse = false;
 
-        submitter.submit(manifest);
-        if (submitter.hasResponse()) {
-            serverResponseMessage = "The submission was successful.";
-            submitterHasResponse = true;
-            serverResponse = submitter.getResponse();
-        } else {
-            serverResponseMessage = "Server has no response.";
+            submitter.submit(manifest);
+
+            if (submitter.hasResponse())
+            {
+                submitterHasResponse = true;
+                serverResponse = submitter.getResponse();
+            }
         }
-
+        catch (IOException e)
+        {
+            serverResponse = e.toString();
+        }
     }
 
     /**

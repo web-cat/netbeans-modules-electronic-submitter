@@ -17,9 +17,6 @@ public class SubmitterPrefs {
     /** The Constant username. */
     public static final String username = "usernamePreference";
 
-    /** The Constant password. */
-    public static final String password = "passwordPreference";
-
     /** The Constant submitUrl. */
     public static final String submitUrl = "submitUrlPreference";
 
@@ -28,12 +25,6 @@ public class SubmitterPrefs {
 
     /** The Constant email. */
     public static final String email = "emailPreference";
-
-    /** The Constant partnerEnabled. */
-    public static final String partnerEnabled = "partnerEnabledPreference";
-
-    /** The Constant serverResponseMessage. */
-    public static final String serverResponseMessage = "serverResponseMessagePreference";
 
     /** The Constant lastProjectSubmitSelect. */
     public static final String lastProjectSubmitSelect = "lastProjectSubmitSelectPreference";

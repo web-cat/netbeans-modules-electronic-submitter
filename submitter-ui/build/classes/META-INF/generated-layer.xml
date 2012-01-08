@@ -21,7 +21,7 @@
             <file name="org-webcat-netbeans-submitter-actions-SubmitProjectAction.shadow">
                 <!--org.webcat.netbeans.submitter.actions.SubmitProjectAction-->
                 <attr name="originalFile" stringvalue="Actions/File/org-webcat-netbeans-submitter-actions-SubmitProjectAction.instance"/>
-                <attr intvalue="500" name="position"/>
+                <attr intvalue="1001" name="position"/>
             </file>
         </folder>
     </folder>
@@ -31,6 +31,16 @@
                 <!--org.webcat.netbeans.submitter.actions.SubmitProjectAction-->
                 <attr name="originalFile" stringvalue="Actions/File/org-webcat-netbeans-submitter-actions-SubmitProjectAction.instance"/>
                 <attr intvalue="500" name="position"/>
+            </file>
+        </folder>
+    </folder>
+    <folder name="Actions">
+        <folder name="File">
+            <file name="org-webcat-netbeans-submitter-actions-SubmitProjectAction.instance">
+                <!--org.webcat.netbeans.submitter.actions.SubmitProjectAction-->
+                <attr
+                    bundlevalue="org.webcat.netbeans.submitter.actions.Bundle#CTL_SubmitProjectAction" name="displayName"/>
+                <attr name="instanceCreate" newvalue="org.webcat.netbeans.submitter.actions.SubmitProjectAction"/>
             </file>
         </folder>
     </folder>

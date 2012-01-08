@@ -5,10 +5,12 @@ import org.netbeans.api.project.Project;
 import org.openide.awt.ActionID;
 import org.openide.awt.ActionReference;
 import org.openide.awt.ActionReferences;
+import org.openide.awt.ActionRegistration;
 import org.openide.filesystems.FileObject;
 import org.openide.nodes.Node;
 import org.openide.util.HelpCtx;
 import org.openide.util.Lookup;
+import org.openide.util.NbBundle.Messages;
 import org.openide.util.actions.NodeAction;
 import org.webcat.netbeans.submitter.ui.SubmitProjectPanel;
 
@@ -22,10 +24,15 @@ import org.webcat.netbeans.submitter.ui.SubmitProjectPanel;
 @ActionID(
     category = "File",
     id = "org.webcat.netbeans.submitter.actions.SubmitProjectAction")
+@ActionRegistration(
+    displayName = "#CTL_SubmitProjectAction")
 @ActionReferences({
-    @ActionReference(path = "Menu/File", position = 500),
+    @ActionReference(path = "Menu/File", position = 1001),
     @ActionReference(path = "Toolbars/File", position = 500)
 })
+@Messages(
+    "CTL_SubmitProjectAction=Submit Project..."
+)
 public final class SubmitProjectAction extends NodeAction
 {
     //~ Methods ...............................................................
@@ -34,7 +41,7 @@ public final class SubmitProjectAction extends NodeAction
     @Override
     public String getName()
     {
-        return "Submit Project";
+        return "Submit Project...";
     }
 
 
@@ -42,7 +49,7 @@ public final class SubmitProjectAction extends NodeAction
     @Override
     protected String iconResource()
     {
-        return "org/webcat/netbeans/submitter/actions/submit.gif";
+        return "/org/webcat/netbeans/submitter/actions/submit.gif";
     }
 
     
