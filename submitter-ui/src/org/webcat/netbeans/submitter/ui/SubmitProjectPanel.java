@@ -67,6 +67,7 @@ public class SubmitProjectPanel extends javax.swing.JPanel
         statusLabel.setText("");
 
         usernameField.setText(model.getUsername());
+        passwordField.setText(model.getPassword());
 
         File projDir = FileUtil.toFile(initialProject.getProjectDirectory());
         projectNameField.setText(projDir.getName());
@@ -354,7 +355,7 @@ public class SubmitProjectPanel extends javax.swing.JPanel
                 .add(jSeparator2, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE, org.jdesktop.layout.GroupLayout.DEFAULT_SIZE, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(org.jdesktop.layout.LayoutStyle.RELATED)
                 .add(statusLabel)
-                .addContainerGap(org.jdesktop.layout.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addContainerGap(34, Short.MAX_VALUE))
         );
     }// </editor-fold>//GEN-END:initComponents
 

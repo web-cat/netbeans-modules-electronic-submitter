@@ -180,10 +180,6 @@ javax.swing.JTextField
 java.net.URL
 javax.swing.GroupLayout$Group
 java.lang.String
-||:org.webcat.netbeans.submitter.options.Bundle
-java.lang.Object
-org.webcat.netbeans.submitter.options.Bundle
-org.openide.util.NbBundle
 ||:org.webcat.netbeans.submitter.util.Utils
 java.lang.StringBuilder
 java.io.File
@@ -201,6 +197,10 @@ java.lang.Object
 java.lang.String
 org.webcat.netbeans.submitter.util.Utils
 java.lang.Exception
+||:org.webcat.netbeans.submitter.options.Bundle
+java.lang.Object
+org.webcat.netbeans.submitter.options.Bundle
+org.openide.util.NbBundle
 ||:org.webcat.netbeans.submitter.ui.SubmissionTargetModel
 java.lang.StringBuilder
 [Lorg.webcat.submitter.targets.SubmissionTarget;
