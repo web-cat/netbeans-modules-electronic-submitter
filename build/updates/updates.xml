@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!DOCTYPE module_updates PUBLIC "-//NetBeans//DTD Autoupdate Catalog 2.8//EN" "http://www.netbeans.org/dtds/autoupdate-catalog-2_8.dtd">
+<module_updates timestamp="18/40/22/24/09/2020">
+
+
+
+<module_group name="Infrastructure">
+
+<module autoload="true" codenamebase="org.webcat.netbeans.submitter.libraries" distribution="org-webcat-netbeans-submitter-libraries.nbm" downloadsize="48688" homepage="" license="AD9FBBC9" moduleauthor="" needsrestart="false" releasedate="2020/09/24">
+        
+    <manifest AutoUpdate-Show-In-Client="false" OpenIDE-Module="org.webcat.netbeans.submitter.libraries/1" OpenIDE-Module-Display-Category="Infrastructure" OpenIDE-Module-Implementation-Version="200916" OpenIDE-Module-Java-Dependencies="Java &gt; 1.7" OpenIDE-Module-Name="Web-CAT Electronic Submitter Core Libraries" OpenIDE-Module-Requires="org.openide.modules.ModuleFormat1" OpenIDE-Module-Specification-Version="1.0.0"/>
+        
+
+    <message_digest algorithm="SHA-512" value="b71d34c0d312909dad6f2b42ed7560389600f27d8fa50d6486c6cd49cf38a4c4c3a45a6f5fccffede7831bf02d38223c7d095b4040486f3dc3602b94bdb4365c"/>
+</module>
+
+<module codenamebase="org.webcat.netbeans.submitter" distribution="org-webcat-netbeans-submitter.nbm" downloadsize="38114" homepage="" license="AD9FBBC9" moduleauthor="" needsrestart="false" releasedate="2020/09/24">
+        
+    <manifest AutoUpdate-Show-In-Client="true" OpenIDE-Module="org.webcat.netbeans.submitter/1" OpenIDE-Module-Display-Category="Infrastructure" OpenIDE-Module-Implementation-Version="200917" OpenIDE-Module-Java-Dependencies="Java &gt; 1.8" OpenIDE-Module-Module-Dependencies="org.netbeans.libs.junit4 &gt; 1.25, org.netbeans.modules.options.api/1 &gt; 1.24.1, org.netbeans.modules.projectapi/1 &gt; 1.40.1, org.netbeans.modules.projectuiapi/1 &gt; 1.53.1.8, org.netbeans.modules.projectuiapi.base/1 &gt; 1.93.0.9, org.openide.awt &gt; 7.39.1, org.openide.dialogs &gt; 7.23.1, org.openide.filesystems &gt; 7.53.2, org.openide.filesystems.nb &gt; 9.18, org.openide.nodes &gt; 7.25.1, org.openide.util &gt; 8.19.1, org.openide.util.lookup &gt; 8.11.1, org.openide.util.ui &gt; 9.16.1, org.openide.windows &gt; 6.48.1, org.webcat.netbeans.submitter.libraries/1 &gt; 1.0" OpenIDE-Module-Name="Web-CAT Electronic Submitter UI" OpenIDE-Module-Requires="org.openide.modules.ModuleFormat1" OpenIDE-Module-Specification-Version="1.0.1"/>
+        
+
+    <message_digest algorithm="SHA-512" value="e50ab10c3aedc170659fbd1f67db582d12351535d4c81961789601db14633e0921b1cd7fa39b9e1704066c5d0609a312f4d7d1262d1d9359f4f7307f3c7bc54b"/>
+</module>
+
+</module_group>
+
+<license name="AD9FBBC9" url="licenses/AD9FBBC9.license"/>
+</module_updates>
+

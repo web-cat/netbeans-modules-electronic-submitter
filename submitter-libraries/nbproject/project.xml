@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://www.netbeans.org/ns/project/1">
+    <type>org.netbeans.modules.apisupport.project</type>
+    <configuration>
+        <data xmlns="http://www.netbeans.org/ns/nb-module-project/3">
+            <code-name-base>org.webcat.netbeans.submitter.libraries</code-name-base>
+            <suite-component/>
+            <module-dependencies/>
+            <public-packages>
+                <package>org.webcat.submitter</package>
+                <package>org.webcat.submitter.internal</package>
+                <package>org.webcat.submitter.internal.packagers</package>
+                <package>org.webcat.submitter.internal.protocols</package>
+                <package>org.webcat.submitter.internal.utility</package>
+                <package>org.webcat.submitter.targets</package>
+            </public-packages>
+            <class-path-extension>
+                <runtime-relative-path>ext/webcat-submitter-1.0.4.jar</runtime-relative-path>
+                <binary-origin>release/modules/ext/webcat-submitter-1.0.4.jar</binary-origin>
+            </class-path-extension>
+        </data>
+    </configuration>
+</project>

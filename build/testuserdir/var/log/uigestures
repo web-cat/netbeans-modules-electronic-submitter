@@ -1,0 +1,540 @@
+<record>
+  <date>2020-09-16T19:30:01</date>
+  <millis>1600299001562</millis>
+  <sequence>91</sequence>
+  <level>300</level>
+  <thread>18</thread>
+  <message>CPU INFO</message>
+  <param>12</param>
+</record>
+<record>
+  <date>2020-09-16T19:30:01</date>
+  <millis>1600299001576</millis>
+  <sequence>92</sequence>
+  <level>300</level>
+  <thread>18</thread>
+  <message>SCREEN SIZE</message>
+  <param>1536</param>
+  <param>864</param>
+  <param>1</param>
+</record>
+<record>
+  <date>2020-09-16T19:30:01</date>
+  <millis>1600299001576</millis>
+  <sequence>93</sequence>
+  <level>700</level>
+  <thread>18</thread>
+  <message>IDE_STARTUP</message>
+</record>
+<record>
+  <date>2020-09-16T19:30:02</date>
+  <millis>1600299002832</millis>
+  <sequence>114</sequence>
+  <logger>org.netbeans.ui.metrics.laf</logger>
+  <level>800</level>
+  <thread>18</thread>
+  <message>USG_LOOK_AND_FEEL</message>
+  <param>Windows</param>
+  <param>Windows</param>
+</record>
+<record>
+  <date>2020-09-16T19:30:05</date>
+  <millis>1600299005850</millis>
+  <sequence>117</sequence>
+  <level>800</level>
+  <thread>25</thread>
+  <message>MEMORY</message>
+  <key>MEMORY</key>
+  <catalog>&lt;null&gt;</catalog>
+  <param>16964157440</param>
+</record>
+<record>
+  <date>2020-09-16T19:30:06</date>
+  <millis>1600299006725</millis>
+  <sequence>118</sequence>
+  <logger>org.netbeans.ui.indexing</logger>
+  <level>800</level>
+  <thread>32</thread>
+  <message>INDEXING_STARTED</message>
+  <key>INDEXING_STARTED</key>
+  <catalog>org.netbeans.modules.parsing.impl.indexing.Bundle</catalog>
+  <param>0</param>
+</record>
+<record>
+  <date>2020-09-16T19:30:06</date>
+  <millis>1600299006727</millis>
+  <sequence>119</sequence>
+  <logger>org.netbeans.ui.indexing</logger>
+  <level>800</level>
+  <thread>32</thread>
+  <message>INDEXING_FINISHED</message>
+  <key>INDEXING_FINISHED</key>
+  <catalog>org.netbeans.modules.parsing.impl.indexing.Bundle</catalog>
+  <param>1</param>
+</record>
+<record>
+  <date>2020-09-16T19:30:20</date>
+  <millis>1600299020601</millis>
+  <sequence>90</sequence>
+  <level>300</level>
+  <thread>18</thread>
+  <message>CPU INFO</message>
+  <param>12</param>
+</record>
+<record>
+  <date>2020-09-16T19:30:20</date>
+  <millis>1600299020619</millis>
+  <sequence>91</sequence>
+  <level>300</level>
+  <thread>18</thread>
+  <message>SCREEN SIZE</message>
+  <param>1536</param>
+  <param>864</param>
+  <param>1</param>
+</record>
+<record>
+  <date>2020-09-16T19:30:20</date>
+  <millis>1600299020619</millis>
+  <sequence>92</sequence>
+  <level>700</level>
+  <thread>18</thread>
+  <message>IDE_STARTUP</message>
+</record>
+<record>
+  <date>2020-09-16T19:30:21</date>
+  <millis>1600299021862</millis>
+  <sequence>113</sequence>
+  <logger>org.netbeans.ui.metrics.laf</logger>
+  <level>800</level>
+  <thread>18</thread>
+  <message>USG_LOOK_AND_FEEL</message>
+  <param>Windows</param>
+  <param>Windows</param>
+</record>
+<record>
+  <date>2020-09-16T19:30:24</date>
+  <millis>1600299024969</millis>
+  <sequence>116</sequence>
+  <level>800</level>
+  <thread>17</thread>
+  <message>MEMORY</message>
+  <key>MEMORY</key>
+  <catalog>&lt;null&gt;</catalog>
+  <param>16964157440</param>
+</record>
+<record>
+  <date>2020-09-16T19:30:28</date>
+  <millis>1600299028954</millis>
+  <sequence>117</sequence>
+  <logger>org.netbeans.ui.indexing</logger>
+  <level>800</level>
+  <thread>56</thread>
+  <message>INDEXING_STARTED</message>
+  <key>INDEXING_STARTED</key>
+  <catalog>org.netbeans.modules.parsing.impl.indexing.Bundle</catalog>
+  <param>0</param>
+</record>
+<record>
+  <date>2020-09-16T19:30:28</date>
+  <millis>1600299028958</millis>
+  <sequence>118</sequence>
+  <logger>org.netbeans.ui.indexing</logger>
+  <level>800</level>
+  <thread>56</thread>
+  <message>INDEXING_FINISHED</message>
+  <key>INDEXING_FINISHED</key>
+  <catalog>org.netbeans.modules.parsing.impl.indexing.Bundle</catalog>
+  <param>2</param>
+</record>
+<record>
+  <date>2020-09-16T19:30:28</date>
+  <millis>1600299028977</millis>
+  <sequence>121</sequence>
+  <logger>org.netbeans.ui.focus</logger>
+  <level>500</level>
+  <thread>24</thread>
+  <message>LOG_WINDOW_DEACTIVATED</message>
+  <key>LOG_WINDOW_DEACTIVATED</key>
+  <catalog>org.netbeans.core.ui.warmup.Bundle</catalog>
+</record>
+<record>
+  <date>2020-09-24T18:50:49</date>
+  <millis>1600987849984</millis>
+  <sequence>90</sequence>
+  <level>300</level>
+  <thread>18</thread>
+  <message>CPU INFO</message>
+  <param>12</param>
+</record>
+<record>
+  <date>2020-09-24T18:50:50</date>
+  <millis>1600987850019</millis>
+  <sequence>91</sequence>
+  <level>300</level>
+  <thread>18</thread>
+  <message>SCREEN SIZE</message>
+  <param>1536</param>
+  <param>864</param>
+  <param>1</param>
+</record>
+<record>
+  <date>2020-09-24T18:50:50</date>
+  <millis>1600987850019</millis>
+  <sequence>92</sequence>
+  <level>700</level>
+  <thread>18</thread>
+  <message>IDE_STARTUP</message>
+</record>
+<record>
+  <date>2020-09-24T18:50:52</date>
+  <millis>1600987852090</millis>
+  <sequence>113</sequence>
+  <logger>org.netbeans.ui.metrics.laf</logger>
+  <level>800</level>
+  <thread>18</thread>
+  <message>USG_LOOK_AND_FEEL</message>
+  <param>Windows</param>
+  <param>Windows</param>
+</record>
+<record>
+  <date>2020-09-24T18:50:56</date>
+  <millis>1600987856176</millis>
+  <sequence>116</sequence>
+  <level>800</level>
+  <thread>32</thread>
+  <message>MEMORY</message>
+  <key>MEMORY</key>
+  <catalog>&lt;null&gt;</catalog>
+  <param>16964157440</param>
+</record>
+<record>
+  <date>2020-09-24T18:51:00</date>
+  <millis>1600987860594</millis>
+  <sequence>117</sequence>
+  <logger>org.netbeans.ui.indexing</logger>
+  <level>800</level>
+  <thread>54</thread>
+  <message>INDEXING_STARTED</message>
+  <key>INDEXING_STARTED</key>
+  <catalog>org.netbeans.modules.parsing.impl.indexing.Bundle</catalog>
+  <param>0</param>
+</record>
+<record>
+  <date>2020-09-24T18:51:00</date>
+  <millis>1600987860600</millis>
+  <sequence>118</sequence>
+  <logger>org.netbeans.ui.indexing</logger>
+  <level>800</level>
+  <thread>54</thread>
+  <message>INDEXING_FINISHED</message>
+  <key>INDEXING_FINISHED</key>
+  <catalog>org.netbeans.modules.parsing.impl.indexing.Bundle</catalog>
+  <param>4</param>
+</record>
+<record>
+  <date>2020-09-24T18:51:00</date>
+  <millis>1600987860653</millis>
+  <sequence>122</sequence>
+  <logger>org.netbeans.ui.focus</logger>
+  <level>500</level>
+  <thread>24</thread>
+  <message>LOG_WINDOW_DEACTIVATED</message>
+  <key>LOG_WINDOW_DEACTIVATED</key>
+  <catalog>org.netbeans.core.ui.warmup.Bundle</catalog>
+</record>
+<record>
+  <date>2020-09-30T00:58:25</date>
+  <millis>1601441905957</millis>
+  <sequence>90</sequence>
+  <level>300</level>
+  <thread>18</thread>
+  <message>CPU INFO</message>
+  <param>12</param>
+</record>
+<record>
+  <date>2020-09-30T00:58:25</date>
+  <millis>1601441905987</millis>
+  <sequence>91</sequence>
+  <level>300</level>
+  <thread>18</thread>
+  <message>SCREEN SIZE</message>
+  <param>1536</param>
+  <param>864</param>
+  <param>1</param>
+</record>
+<record>
+  <date>2020-09-30T00:58:25</date>
+  <millis>1601441905987</millis>
+  <sequence>92</sequence>
+  <level>700</level>
+  <thread>18</thread>
+  <message>IDE_STARTUP</message>
+</record>
+<record>
+  <date>2020-09-30T00:58:28</date>
+  <millis>1601441908546</millis>
+  <sequence>113</sequence>
+  <logger>org.netbeans.ui.metrics.laf</logger>
+  <level>800</level>
+  <thread>18</thread>
+  <message>USG_LOOK_AND_FEEL</message>
+  <param>Windows</param>
+  <param>Windows</param>
+</record>
+<record>
+  <date>2020-09-30T00:58:33</date>
+  <millis>1601441913205</millis>
+  <sequence>116</sequence>
+  <level>800</level>
+  <thread>32</thread>
+  <message>MEMORY</message>
+  <key>MEMORY</key>
+  <catalog>&lt;null&gt;</catalog>
+  <param>16964157440</param>
+</record>
+<record>
+  <date>2020-09-30T00:58:34</date>
+  <millis>1601441914277</millis>
+  <sequence>117</sequence>
+  <logger>org.netbeans.ui.indexing</logger>
+  <level>800</level>
+  <thread>35</thread>
+  <message>INDEXING_STARTED</message>
+  <key>INDEXING_STARTED</key>
+  <catalog>org.netbeans.modules.parsing.impl.indexing.Bundle</catalog>
+  <param>0</param>
+</record>
+<record>
+  <date>2020-09-30T00:58:34</date>
+  <millis>1601441914282</millis>
+  <sequence>118</sequence>
+  <logger>org.netbeans.ui.indexing</logger>
+  <level>800</level>
+  <thread>35</thread>
+  <message>INDEXING_FINISHED</message>
+  <key>INDEXING_FINISHED</key>
+  <catalog>org.netbeans.modules.parsing.impl.indexing.Bundle</catalog>
+  <param>4</param>
+</record>
+<record>
+  <date>2020-09-30T00:58:53</date>
+  <millis>1601441933657</millis>
+  <sequence>90</sequence>
+  <level>300</level>
+  <thread>18</thread>
+  <message>CPU INFO</message>
+  <param>12</param>
+</record>
+<record>
+  <date>2020-09-30T00:58:53</date>
+  <millis>1601441933680</millis>
+  <sequence>91</sequence>
+  <level>300</level>
+  <thread>18</thread>
+  <message>SCREEN SIZE</message>
+  <param>1536</param>
+  <param>864</param>
+  <param>1</param>
+</record>
+<record>
+  <date>2020-09-30T00:58:53</date>
+  <millis>1601441933681</millis>
+  <sequence>92</sequence>
+  <level>700</level>
+  <thread>18</thread>
+  <message>IDE_STARTUP</message>
+</record>
+<record>
+  <date>2020-09-30T00:58:55</date>
+  <millis>1601441935589</millis>
+  <sequence>113</sequence>
+  <logger>org.netbeans.ui.metrics.laf</logger>
+  <level>800</level>
+  <thread>18</thread>
+  <message>USG_LOOK_AND_FEEL</message>
+  <param>Windows</param>
+  <param>Windows</param>
+</record>
+<record>
+  <date>2020-09-30T00:58:59</date>
+  <millis>1601441939423</millis>
+  <sequence>116</sequence>
+  <level>800</level>
+  <thread>17</thread>
+  <message>MEMORY</message>
+  <key>MEMORY</key>
+  <catalog>&lt;null&gt;</catalog>
+  <param>16964157440</param>
+</record>
+<record>
+  <date>2020-09-30T00:59:00</date>
+  <millis>1601441940341</millis>
+  <sequence>117</sequence>
+  <logger>org.netbeans.ui.indexing</logger>
+  <level>800</level>
+  <thread>34</thread>
+  <message>INDEXING_STARTED</message>
+  <key>INDEXING_STARTED</key>
+  <catalog>org.netbeans.modules.parsing.impl.indexing.Bundle</catalog>
+  <param>0</param>
+</record>
+<record>
+  <date>2020-09-30T00:59:00</date>
+  <millis>1601441940347</millis>
+  <sequence>118</sequence>
+  <logger>org.netbeans.ui.indexing</logger>
+  <level>800</level>
+  <thread>34</thread>
+  <message>INDEXING_FINISHED</message>
+  <key>INDEXING_FINISHED</key>
+  <catalog>org.netbeans.modules.parsing.impl.indexing.Bundle</catalog>
+  <param>4</param>
+</record>
+<record>
+  <date>2020-09-30T00:59:19</date>
+  <millis>1601441959726</millis>
+  <sequence>90</sequence>
+  <level>300</level>
+  <thread>18</thread>
+  <message>CPU INFO</message>
+  <param>12</param>
+</record>
+<record>
+  <date>2020-09-30T00:59:19</date>
+  <millis>1601441959751</millis>
+  <sequence>91</sequence>
+  <level>300</level>
+  <thread>18</thread>
+  <message>SCREEN SIZE</message>
+  <param>1536</param>
+  <param>864</param>
+  <param>1</param>
+</record>
+<record>
+  <date>2020-09-30T00:59:19</date>
+  <millis>1601441959751</millis>
+  <sequence>92</sequence>
+  <level>700</level>
+  <thread>18</thread>
+  <message>IDE_STARTUP</message>
+</record>
+<record>
+  <date>2020-09-30T00:59:21</date>
+  <millis>1601441961609</millis>
+  <sequence>113</sequence>
+  <logger>org.netbeans.ui.metrics.laf</logger>
+  <level>800</level>
+  <thread>18</thread>
+  <message>USG_LOOK_AND_FEEL</message>
+  <param>Windows</param>
+  <param>Windows</param>
+</record>
+<record>
+  <date>2020-09-30T00:59:25</date>
+  <millis>1601441965610</millis>
+  <sequence>116</sequence>
+  <level>800</level>
+  <thread>25</thread>
+  <message>MEMORY</message>
+  <key>MEMORY</key>
+  <catalog>&lt;null&gt;</catalog>
+  <param>16964157440</param>
+</record>
+<record>
+  <date>2020-09-30T00:59:26</date>
+  <millis>1601441966602</millis>
+  <sequence>117</sequence>
+  <logger>org.netbeans.ui.indexing</logger>
+  <level>800</level>
+  <thread>32</thread>
+  <message>INDEXING_STARTED</message>
+  <key>INDEXING_STARTED</key>
+  <catalog>org.netbeans.modules.parsing.impl.indexing.Bundle</catalog>
+  <param>0</param>
+</record>
+<record>
+  <date>2020-09-30T00:59:26</date>
+  <millis>1601441966607</millis>
+  <sequence>118</sequence>
+  <logger>org.netbeans.ui.indexing</logger>
+  <level>800</level>
+  <thread>32</thread>
+  <message>INDEXING_FINISHED</message>
+  <key>INDEXING_FINISHED</key>
+  <catalog>org.netbeans.modules.parsing.impl.indexing.Bundle</catalog>
+  <param>4</param>
+</record>
+<record>
+  <date>2020-09-30T01:00:01</date>
+  <millis>1601442001723</millis>
+  <sequence>90</sequence>
+  <level>300</level>
+  <thread>18</thread>
+  <message>CPU INFO</message>
+  <param>12</param>
+</record>
+<record>
+  <date>2020-09-30T01:00:01</date>
+  <millis>1601442001746</millis>
+  <sequence>91</sequence>
+  <level>300</level>
+  <thread>18</thread>
+  <message>SCREEN SIZE</message>
+  <param>1536</param>
+  <param>864</param>
+  <param>1</param>
+</record>
+<record>
+  <date>2020-09-30T01:00:01</date>
+  <millis>1601442001747</millis>
+  <sequence>92</sequence>
+  <level>700</level>
+  <thread>18</thread>
+  <message>IDE_STARTUP</message>
+</record>
+<record>
+  <date>2020-09-30T01:00:03</date>
+  <millis>1601442003554</millis>
+  <sequence>113</sequence>
+  <logger>org.netbeans.ui.metrics.laf</logger>
+  <level>800</level>
+  <thread>18</thread>
+  <message>USG_LOOK_AND_FEEL</message>
+  <param>Windows</param>
+  <param>Windows</param>
+</record>
+<record>
+  <date>2020-09-30T01:00:07</date>
+  <millis>1601442007602</millis>
+  <sequence>116</sequence>
+  <level>800</level>
+  <thread>31</thread>
+  <message>MEMORY</message>
+  <key>MEMORY</key>
+  <catalog>&lt;null&gt;</catalog>
+  <param>16964157440</param>
+</record>
+<record>
+  <date>2020-09-30T01:00:07</date>
+  <millis>1601442007773</millis>
+  <sequence>117</sequence>
+  <logger>org.netbeans.ui.indexing</logger>
+  <level>800</level>
+  <thread>25</thread>
+  <message>INDEXING_STARTED</message>
+  <key>INDEXING_STARTED</key>
+  <catalog>org.netbeans.modules.parsing.impl.indexing.Bundle</catalog>
+  <param>0</param>
+</record>
+<record>
+  <date>2020-09-30T01:00:07</date>
+  <millis>1601442007778</millis>
+  <sequence>118</sequence>
+  <logger>org.netbeans.ui.indexing</logger>
+  <level>800</level>
+  <thread>25</thread>
+  <message>INDEXING_FINISHED</message>
+  <key>INDEXING_FINISHED</key>
+  <catalog>org.netbeans.modules.parsing.impl.indexing.Bundle</catalog>
+  <param>4</param>
+</record>
