@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<module codename="org.webcat.netbeans.submitter.libraries/1">
-    <module_version install_time="1326724658301" last="true" origin="installer" specification_version="1.0.0">
-        <file crc="26985049" name="config/Modules/org-webcat-netbeans-submitter-libraries.xml"/>
-        <file crc="1676101628" name="modules/ext/webcat-submitter-1.0.4.jar"/>
-        <file crc="172410754" name="modules/org-webcat-netbeans-submitter-libraries.jar"/>
-    </module_version>
-</module>
