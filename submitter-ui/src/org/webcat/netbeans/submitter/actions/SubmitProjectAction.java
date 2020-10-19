@@ -25,7 +25,7 @@ import org.webcat.netbeans.submitter.ui.SubmitProjectPanel;
     category = "File",
     id = "org.webcat.netbeans.submitter.actions.SubmitProjectAction")
 @ActionRegistration(
-    displayName = "#CTL_SubmitProjectAction")
+    displayName = "#CTL_SubmitProjectAction", lazy = true)
 @ActionReferences({
     @ActionReference(path = "Menu/File", position = 1001),
     @ActionReference(path = "Toolbars/File", position = 500)

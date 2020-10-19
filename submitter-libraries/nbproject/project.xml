@@ -15,8 +15,8 @@
                 <package>org.webcat.submitter.targets</package>
             </public-packages>
             <class-path-extension>
-                <runtime-relative-path>ext/webcat-submitter-1.0.4.jar</runtime-relative-path>
-                <binary-origin>release/modules/ext/webcat-submitter-1.0.4.jar</binary-origin>
+                <runtime-relative-path>ext/webcat-submitter-1.0.5.jar</runtime-relative-path>
+                <binary-origin>release/modules/ext/webcat-submitter-1.0.5.jar</binary-origin>
             </class-path-extension>
         </data>
     </configuration>
