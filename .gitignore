@@ -1,6 +1,8 @@
-*.jar
 *.class
 .DS_Store
+build/
 nbproject/private/
+submitter-libraries/build/
 submitter-libraries/nbproject/private/
+submitter-ui/build/
 submitter-ui/nbproject/private/
