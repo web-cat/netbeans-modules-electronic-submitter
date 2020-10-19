@@ -2,3 +2,5 @@
 *.class
 .DS_Store
 nbproject/private/
+submitter-libraries/nbproject/private/
+submitter-ui/nbproject/private/
